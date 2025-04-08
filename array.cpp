@@ -165,7 +165,7 @@ int main(){
 // Input: [10, 20, 5, 30]
 // Output: 20
 
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 int main(){
 	int nums[4]={10,20,5,30};
@@ -180,4 +180,4 @@ int main(){
 	}
 	cout<<max2;
 	return 0; 
-}
+}*/
