@@ -9,6 +9,16 @@ int linear_search(int arr[], int size, int value){
 	}
 	return -1;
 }
+int mainnn(){
+	int ar[]={1,2,3,4,5};
+	int d=linear_search(ar,5,3);
+	if (d!=-1){
+		cout<<"found at index: "<<d<<endl;
+	} else{
+		cout<<"Value not found"<<endl;
+	}
+	return 0;
+}
 int main(){
 	int ar[]={1,2,3,4,5};
 	int d=linear_search(ar,5,3);
